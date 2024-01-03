@@ -1,0 +1,38 @@
+
+table, th, td {  
+    border: 2px solid black;
+    border-collapse: collapse;  
+}  
+th, td {  
+    padding: 10px;  
+   
+}  
+table#alter tr:nth-child(even) {  
+    background-color: blue;  
+}  
+table#alter tr:nth-child(odd) {  
+    background-color: black;
+}  
+table#alter th {  
+    color: grey;  
+    background-color: gray;  
+}  
+body {
+ 
+    text-align: center;
+ 
+}
+table {
+ 
+    margin-left: auto;
+ 
+    margin-right: auto;
+ 
+}
+th {
+    background-color:lightslategray;
+    color: white;
+    font-size: small;
+  }
+ 
+ 
